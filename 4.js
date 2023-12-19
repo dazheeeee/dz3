@@ -13,5 +13,5 @@ for (let i = data.length - 1; i >= 0; i--) {
   result.push(element);
 }
 
-// Выводим результат 
+// Вывод результата
 console.log(result);
