@@ -9,10 +9,10 @@ function showFamily(family) {
       const names = family.join(' ');
       // Создаю "Семья состоит из:", добавляя имена к нему
       const message = 'Семья состоит из: ' + names;
-      // Возвращаю сообщение
+      // Возврат
       return message;
     }
   }
-  
+  // Вывод 
   console.log(showFamily(['Peter', 'Ann', 'Alex', 'Linda']));  // => 'Семья состоит из: Peter Ann Alex Linda'
   console.log(showFamily([]));  // => 'Семья пуста'
